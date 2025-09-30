@@ -19,7 +19,7 @@ void build(int ind,int low,int high){
 
 void pointUpdate(int ind,int low,int high,int node,int val){
     if(low==high){
-        seg[low]+=val;
+        seg[ind]+=val;
     }
     else{
         int mid = (low+high)/2;
